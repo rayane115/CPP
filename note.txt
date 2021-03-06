@@ -1,0 +1,6 @@
+Il faut impérativement utiliser une constante comme taille du tableau.
+Déclarez un tableau dynamique
+La première différence se situe au tout début de votre programme. Il faut ajouter la ligne#include <vector>pour utiliser ces tableaux.
+ faut utiliser la fonction push_back(). On écrit le nom du tableau, suivi d'un point et du mot push_backavec, entre parenthèses, la valeur qui va remplir la nouvelle case.
+ On peut supprimer la dernière case d'un tableau en utilisant la fonctionpop_back()de la même manière quepush_back(), sauf qu'il n'y a rien à mettre entre les parenthèses.
+ Avectableau.size(), on récupère un entier correspondant au nombre d'éléments detableau.
