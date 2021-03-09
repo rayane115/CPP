@@ -15,7 +15,7 @@ ClapTrap::ClapTrap(std::string name)
 	_meleeAttack = 0; 
     _rangeAttack = 0; 
     _armorDamage = 0;
-	std::cout << "constructeur claptrap" << _name << std::endl;
+	std::cout << "constructeur claptrap " << _name << std::endl;
 }
 
 ClapTrap::ClapTrap( const ClapTrap & other )
